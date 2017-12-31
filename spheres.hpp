@@ -8,7 +8,6 @@
 extern bool againTime;
 extern double tTransicao;
 extern bool pause;
-extern bool start;
 extern float auxx, auxy;
 extern float xRHand, yRHand;
 extern double r, b;

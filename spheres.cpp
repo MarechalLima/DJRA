@@ -2,16 +2,13 @@
 // Created by nicholas on 31/12/17.
 //
 #include "spheres.hpp"
+#include "background_render.hpp"
 #include <GL/gl.h>
 #include <GL/glut.h>
-#include <opencv/cv.h>
-#include <opencv/cxcore.h>
-#include <opencv/highgui.h>
 
 bool againTime = false;
 double tTransicao = 4;
 bool pause = true;
-bool start = false;
 float auxx, auxy;
 float xRHand = 0.0f, yRHand = 0.0f;
 double r = 1, b = 0;
