@@ -175,34 +175,6 @@ void sairEsc(unsigned char key, int x, int y) {
 	}
 
 }
-void drawSphereAuxiliar(){
-	if(againTime == true && tTransicao==4 || pause == false && tTransicao==4){
-		if(start==false){
-			glPushMatrix();
-			glColor3f(1,1,1);
-			glTranslated(auxx,auxy,0);
-			glutSolidSphere(10,10,10);
-			glPopMatrix();
-		}
-	}
-	
-}
-void drawSphere() {
-	
-	glPushMatrix();
-	glTranslated(0, 0, 0);
-
-	if (xRHand == 0 && yRHand == 0)
-	{
-		glTranslated(15, 15, 0);
-	}else if(xRHand != 0 && yRHand != 0 || start==true){
-		glTranslated((xRHand), yRHand, 0);
-	}
-	glColor3d(r, 0, b);
-	glutSolidSphere(15, 16, 16);
-	glPopMatrix();
-	
-}
 
 void profundidadeColisao() {
 	if (zRHand < zRHandDefault && zRHand != 0 && faseConcluida == false && pause==false) {
@@ -334,29 +306,6 @@ void colisao() {
 			}
 		}
 	}
-}
-void BarraTempo(char *string){
-	
-	glPushMatrix();
-
-	glRasterPos2d(550,70);
-	while(*string){
-		glColor3f(0,0,1);
-		glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24,*string++);
-	}
-	glPopMatrix();
-	
-}
-
-void vidas(){
-	for(int i=0;i<quantidadeVidas;i++){
-		glPushMatrix();
-		glColor3f(1,1,1);
-		glTranslated(520+(i*20),40,0);
-		glutSolidSphere(7,10,10);
-		glPopMatrix();
-	}
-	
 }
 
 /*Draw the opengl/glut scene*/
