@@ -7,7 +7,7 @@ include_directories(./)
 
 add_executable(djra
         background_render.cpp
-        main.cpp spheres.cpp spheres.hpp)
+        main.cpp spheres.cpp spheres.hpp render.cpp render.hpp transition.cpp transition.hpp exit.cpp exit.hpp tutorial.cpp tutorial.hpp collision.cpp collision.hpp)
 
 find_package(GLUT REQUIRED)
 find_package(OpenGL REQUIRED)

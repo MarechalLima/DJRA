@@ -129,11 +129,136 @@ CMakeFiles/djra.dir/spheres.cpp.o.provides: CMakeFiles/djra.dir/spheres.cpp.o.re
 CMakeFiles/djra.dir/spheres.cpp.o.provides.build: CMakeFiles/djra.dir/spheres.cpp.o
 
 
+CMakeFiles/djra.dir/render.cpp.o: CMakeFiles/djra.dir/flags.make
+CMakeFiles/djra.dir/render.cpp.o: ../render.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nicholas/Projects/djra/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/djra.dir/render.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/djra.dir/render.cpp.o -c /home/nicholas/Projects/djra/render.cpp
+
+CMakeFiles/djra.dir/render.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/djra.dir/render.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nicholas/Projects/djra/render.cpp > CMakeFiles/djra.dir/render.cpp.i
+
+CMakeFiles/djra.dir/render.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/djra.dir/render.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nicholas/Projects/djra/render.cpp -o CMakeFiles/djra.dir/render.cpp.s
+
+CMakeFiles/djra.dir/render.cpp.o.requires:
+
+.PHONY : CMakeFiles/djra.dir/render.cpp.o.requires
+
+CMakeFiles/djra.dir/render.cpp.o.provides: CMakeFiles/djra.dir/render.cpp.o.requires
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/render.cpp.o.provides.build
+.PHONY : CMakeFiles/djra.dir/render.cpp.o.provides
+
+CMakeFiles/djra.dir/render.cpp.o.provides.build: CMakeFiles/djra.dir/render.cpp.o
+
+
+CMakeFiles/djra.dir/transition.cpp.o: CMakeFiles/djra.dir/flags.make
+CMakeFiles/djra.dir/transition.cpp.o: ../transition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nicholas/Projects/djra/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/djra.dir/transition.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/djra.dir/transition.cpp.o -c /home/nicholas/Projects/djra/transition.cpp
+
+CMakeFiles/djra.dir/transition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/djra.dir/transition.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nicholas/Projects/djra/transition.cpp > CMakeFiles/djra.dir/transition.cpp.i
+
+CMakeFiles/djra.dir/transition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/djra.dir/transition.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nicholas/Projects/djra/transition.cpp -o CMakeFiles/djra.dir/transition.cpp.s
+
+CMakeFiles/djra.dir/transition.cpp.o.requires:
+
+.PHONY : CMakeFiles/djra.dir/transition.cpp.o.requires
+
+CMakeFiles/djra.dir/transition.cpp.o.provides: CMakeFiles/djra.dir/transition.cpp.o.requires
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/transition.cpp.o.provides.build
+.PHONY : CMakeFiles/djra.dir/transition.cpp.o.provides
+
+CMakeFiles/djra.dir/transition.cpp.o.provides.build: CMakeFiles/djra.dir/transition.cpp.o
+
+
+CMakeFiles/djra.dir/exit.cpp.o: CMakeFiles/djra.dir/flags.make
+CMakeFiles/djra.dir/exit.cpp.o: ../exit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nicholas/Projects/djra/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/djra.dir/exit.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/djra.dir/exit.cpp.o -c /home/nicholas/Projects/djra/exit.cpp
+
+CMakeFiles/djra.dir/exit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/djra.dir/exit.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nicholas/Projects/djra/exit.cpp > CMakeFiles/djra.dir/exit.cpp.i
+
+CMakeFiles/djra.dir/exit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/djra.dir/exit.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nicholas/Projects/djra/exit.cpp -o CMakeFiles/djra.dir/exit.cpp.s
+
+CMakeFiles/djra.dir/exit.cpp.o.requires:
+
+.PHONY : CMakeFiles/djra.dir/exit.cpp.o.requires
+
+CMakeFiles/djra.dir/exit.cpp.o.provides: CMakeFiles/djra.dir/exit.cpp.o.requires
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/exit.cpp.o.provides.build
+.PHONY : CMakeFiles/djra.dir/exit.cpp.o.provides
+
+CMakeFiles/djra.dir/exit.cpp.o.provides.build: CMakeFiles/djra.dir/exit.cpp.o
+
+
+CMakeFiles/djra.dir/tutorial.cpp.o: CMakeFiles/djra.dir/flags.make
+CMakeFiles/djra.dir/tutorial.cpp.o: ../tutorial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nicholas/Projects/djra/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/djra.dir/tutorial.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/djra.dir/tutorial.cpp.o -c /home/nicholas/Projects/djra/tutorial.cpp
+
+CMakeFiles/djra.dir/tutorial.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/djra.dir/tutorial.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nicholas/Projects/djra/tutorial.cpp > CMakeFiles/djra.dir/tutorial.cpp.i
+
+CMakeFiles/djra.dir/tutorial.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/djra.dir/tutorial.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nicholas/Projects/djra/tutorial.cpp -o CMakeFiles/djra.dir/tutorial.cpp.s
+
+CMakeFiles/djra.dir/tutorial.cpp.o.requires:
+
+.PHONY : CMakeFiles/djra.dir/tutorial.cpp.o.requires
+
+CMakeFiles/djra.dir/tutorial.cpp.o.provides: CMakeFiles/djra.dir/tutorial.cpp.o.requires
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/tutorial.cpp.o.provides.build
+.PHONY : CMakeFiles/djra.dir/tutorial.cpp.o.provides
+
+CMakeFiles/djra.dir/tutorial.cpp.o.provides.build: CMakeFiles/djra.dir/tutorial.cpp.o
+
+
+CMakeFiles/djra.dir/collision.cpp.o: CMakeFiles/djra.dir/flags.make
+CMakeFiles/djra.dir/collision.cpp.o: ../collision.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nicholas/Projects/djra/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/djra.dir/collision.cpp.o"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/djra.dir/collision.cpp.o -c /home/nicholas/Projects/djra/collision.cpp
+
+CMakeFiles/djra.dir/collision.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/djra.dir/collision.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nicholas/Projects/djra/collision.cpp > CMakeFiles/djra.dir/collision.cpp.i
+
+CMakeFiles/djra.dir/collision.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/djra.dir/collision.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nicholas/Projects/djra/collision.cpp -o CMakeFiles/djra.dir/collision.cpp.s
+
+CMakeFiles/djra.dir/collision.cpp.o.requires:
+
+.PHONY : CMakeFiles/djra.dir/collision.cpp.o.requires
+
+CMakeFiles/djra.dir/collision.cpp.o.provides: CMakeFiles/djra.dir/collision.cpp.o.requires
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/collision.cpp.o.provides.build
+.PHONY : CMakeFiles/djra.dir/collision.cpp.o.provides
+
+CMakeFiles/djra.dir/collision.cpp.o.provides.build: CMakeFiles/djra.dir/collision.cpp.o
+
+
 # Object files for target djra
 djra_OBJECTS = \
 "CMakeFiles/djra.dir/background_render.cpp.o" \
 "CMakeFiles/djra.dir/main.cpp.o" \
-"CMakeFiles/djra.dir/spheres.cpp.o"
+"CMakeFiles/djra.dir/spheres.cpp.o" \
+"CMakeFiles/djra.dir/render.cpp.o" \
+"CMakeFiles/djra.dir/transition.cpp.o" \
+"CMakeFiles/djra.dir/exit.cpp.o" \
+"CMakeFiles/djra.dir/tutorial.cpp.o" \
+"CMakeFiles/djra.dir/collision.cpp.o"
 
 # External object files for target djra
 djra_EXTERNAL_OBJECTS =
@@ -141,6 +266,11 @@ djra_EXTERNAL_OBJECTS =
 djra: CMakeFiles/djra.dir/background_render.cpp.o
 djra: CMakeFiles/djra.dir/main.cpp.o
 djra: CMakeFiles/djra.dir/spheres.cpp.o
+djra: CMakeFiles/djra.dir/render.cpp.o
+djra: CMakeFiles/djra.dir/transition.cpp.o
+djra: CMakeFiles/djra.dir/exit.cpp.o
+djra: CMakeFiles/djra.dir/tutorial.cpp.o
+djra: CMakeFiles/djra.dir/collision.cpp.o
 djra: CMakeFiles/djra.dir/build.make
 djra: /usr/lib/x86_64-linux-gnu/libGLU.so
 djra: /usr/lib/x86_64-linux-gnu/libGL.so
@@ -165,7 +295,7 @@ djra: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.9
 djra: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.9
 djra: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.9
 djra: CMakeFiles/djra.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nicholas/Projects/djra/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable djra"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nicholas/Projects/djra/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable djra"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/djra.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -176,6 +306,11 @@ CMakeFiles/djra.dir/build: djra
 CMakeFiles/djra.dir/requires: CMakeFiles/djra.dir/background_render.cpp.o.requires
 CMakeFiles/djra.dir/requires: CMakeFiles/djra.dir/main.cpp.o.requires
 CMakeFiles/djra.dir/requires: CMakeFiles/djra.dir/spheres.cpp.o.requires
+CMakeFiles/djra.dir/requires: CMakeFiles/djra.dir/render.cpp.o.requires
+CMakeFiles/djra.dir/requires: CMakeFiles/djra.dir/transition.cpp.o.requires
+CMakeFiles/djra.dir/requires: CMakeFiles/djra.dir/exit.cpp.o.requires
+CMakeFiles/djra.dir/requires: CMakeFiles/djra.dir/tutorial.cpp.o.requires
+CMakeFiles/djra.dir/requires: CMakeFiles/djra.dir/collision.cpp.o.requires
 
 .PHONY : CMakeFiles/djra.dir/requires
 

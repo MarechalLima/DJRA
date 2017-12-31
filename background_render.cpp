@@ -1,10 +1,17 @@
 #include "background_render.hpp"
+
 /** Variables **/
+int levelImage = 0;
 GLdouble angle, dAspect = 1;
 GLdouble anglex = 0, angley = 0, anglez = -270;
 GLuint textureId;
+IplImage * image;
 IplImage * imageBgd;
 int quantidadeVidas = 3;
+bool start = false;
+double t = 30;
+char ti[] = "30";
+bool pause = true;
 
 /** Background images variables **/
 char name0[] = "imags/cenario1.png"; char nameBgd0[] = "imags/cenario1-exibir.png"; char nameBgd2D0[] = "imags/cenario1-exibir-2d.png";
@@ -127,4 +134,13 @@ void vidas(){
 		glPopMatrix();
 	}
 
+}
+
+void Tempo(int value){
+	if(t>0 && start==true && pause==false){
+		t--;
+	}
+	//itoa(t,ti,10);
+	sprintf(ti,"%f",t);
+	glutTimerFunc(1000,Tempo,1);
 }

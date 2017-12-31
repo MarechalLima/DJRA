@@ -8,11 +8,13 @@
 #include <opencv/highgui.h>
 
 /** Variables **/
-extern GLdouble angle, dAspect;
-extern GLdouble anglex, angley, anglez;
+extern int levelImage, quantidadeVidas;
+extern GLdouble angle, dAspect, anglex, angley, anglez;
 extern GLuint textureId;
-extern IplImage * imageBgd;
-extern int quantidadeVidas;
+extern IplImage *image, *imageBgd;
+extern bool start, pause;
+extern double t;
+extern char ti[];
 
 /** Background images variables **/
 extern char name0[]; extern char nameBgd0[]; extern char nameBgd2D0[];
@@ -39,5 +41,6 @@ void init(
 void setCamera();
 void BarraTempo(char *string);
 void vidas();
+void Tempo(int value);
 
 #endif

@@ -150,6 +150,60 @@ background_render.cpp.s:
 	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/background_render.cpp.s
 .PHONY : background_render.cpp.s
 
+collision.o: collision.cpp.o
+
+.PHONY : collision.o
+
+# target to build an object file
+collision.cpp.o:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/collision.cpp.o
+.PHONY : collision.cpp.o
+
+collision.i: collision.cpp.i
+
+.PHONY : collision.i
+
+# target to preprocess a source file
+collision.cpp.i:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/collision.cpp.i
+.PHONY : collision.cpp.i
+
+collision.s: collision.cpp.s
+
+.PHONY : collision.s
+
+# target to generate assembly for a file
+collision.cpp.s:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/collision.cpp.s
+.PHONY : collision.cpp.s
+
+exit.o: exit.cpp.o
+
+.PHONY : exit.o
+
+# target to build an object file
+exit.cpp.o:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/exit.cpp.o
+.PHONY : exit.cpp.o
+
+exit.i: exit.cpp.i
+
+.PHONY : exit.i
+
+# target to preprocess a source file
+exit.cpp.i:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/exit.cpp.i
+.PHONY : exit.cpp.i
+
+exit.s: exit.cpp.s
+
+.PHONY : exit.s
+
+# target to generate assembly for a file
+exit.cpp.s:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/exit.cpp.s
+.PHONY : exit.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -176,6 +230,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+render.o: render.cpp.o
+
+.PHONY : render.o
+
+# target to build an object file
+render.cpp.o:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/render.cpp.o
+.PHONY : render.cpp.o
+
+render.i: render.cpp.i
+
+.PHONY : render.i
+
+# target to preprocess a source file
+render.cpp.i:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/render.cpp.i
+.PHONY : render.cpp.i
+
+render.s: render.cpp.s
+
+.PHONY : render.s
+
+# target to generate assembly for a file
+render.cpp.s:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/render.cpp.s
+.PHONY : render.cpp.s
 
 spheres.o: spheres.cpp.o
 
@@ -204,6 +285,60 @@ spheres.cpp.s:
 	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/spheres.cpp.s
 .PHONY : spheres.cpp.s
 
+transition.o: transition.cpp.o
+
+.PHONY : transition.o
+
+# target to build an object file
+transition.cpp.o:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/transition.cpp.o
+.PHONY : transition.cpp.o
+
+transition.i: transition.cpp.i
+
+.PHONY : transition.i
+
+# target to preprocess a source file
+transition.cpp.i:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/transition.cpp.i
+.PHONY : transition.cpp.i
+
+transition.s: transition.cpp.s
+
+.PHONY : transition.s
+
+# target to generate assembly for a file
+transition.cpp.s:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/transition.cpp.s
+.PHONY : transition.cpp.s
+
+tutorial.o: tutorial.cpp.o
+
+.PHONY : tutorial.o
+
+# target to build an object file
+tutorial.cpp.o:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/tutorial.cpp.o
+.PHONY : tutorial.cpp.o
+
+tutorial.i: tutorial.cpp.i
+
+.PHONY : tutorial.i
+
+# target to preprocess a source file
+tutorial.cpp.i:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/tutorial.cpp.i
+.PHONY : tutorial.cpp.i
+
+tutorial.s: tutorial.cpp.s
+
+.PHONY : tutorial.s
+
+# target to generate assembly for a file
+tutorial.cpp.s:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/tutorial.cpp.s
+.PHONY : tutorial.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +351,27 @@ help:
 	@echo "... background_render.o"
 	@echo "... background_render.i"
 	@echo "... background_render.s"
+	@echo "... collision.o"
+	@echo "... collision.i"
+	@echo "... collision.s"
+	@echo "... exit.o"
+	@echo "... exit.i"
+	@echo "... exit.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... render.o"
+	@echo "... render.i"
+	@echo "... render.s"
 	@echo "... spheres.o"
 	@echo "... spheres.i"
 	@echo "... spheres.s"
+	@echo "... transition.o"
+	@echo "... transition.i"
+	@echo "... transition.s"
+	@echo "... tutorial.o"
+	@echo "... tutorial.i"
+	@echo "... tutorial.s"
 .PHONY : help
 
 

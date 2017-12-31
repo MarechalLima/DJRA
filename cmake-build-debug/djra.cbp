@@ -92,13 +92,43 @@
 		<Unit filename="/home/nicholas/Projects/djra/background_render.hpp">
 			<Option target="djra"/>
 		</Unit>
+		<Unit filename="/home/nicholas/Projects/djra/collision.cpp">
+			<Option target="djra"/>
+		</Unit>
+		<Unit filename="/home/nicholas/Projects/djra/collision.hpp">
+			<Option target="djra"/>
+		</Unit>
+		<Unit filename="/home/nicholas/Projects/djra/exit.cpp">
+			<Option target="djra"/>
+		</Unit>
+		<Unit filename="/home/nicholas/Projects/djra/exit.hpp">
+			<Option target="djra"/>
+		</Unit>
 		<Unit filename="/home/nicholas/Projects/djra/main.cpp">
+			<Option target="djra"/>
+		</Unit>
+		<Unit filename="/home/nicholas/Projects/djra/render.cpp">
+			<Option target="djra"/>
+		</Unit>
+		<Unit filename="/home/nicholas/Projects/djra/render.hpp">
 			<Option target="djra"/>
 		</Unit>
 		<Unit filename="/home/nicholas/Projects/djra/spheres.cpp">
 			<Option target="djra"/>
 		</Unit>
 		<Unit filename="/home/nicholas/Projects/djra/spheres.hpp">
+			<Option target="djra"/>
+		</Unit>
+		<Unit filename="/home/nicholas/Projects/djra/transition.cpp">
+			<Option target="djra"/>
+		</Unit>
+		<Unit filename="/home/nicholas/Projects/djra/transition.hpp">
+			<Option target="djra"/>
+		</Unit>
+		<Unit filename="/home/nicholas/Projects/djra/tutorial.cpp">
+			<Option target="djra"/>
+		</Unit>
+		<Unit filename="/home/nicholas/Projects/djra/tutorial.hpp">
 			<Option target="djra"/>
 		</Unit>
 		<Unit filename="/home/nicholas/Projects/djra/CMakeLists.txt">
