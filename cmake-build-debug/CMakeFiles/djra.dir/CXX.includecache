@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nicholas/Projects/djra/b_render.cpp
+b_render.hpp
+/home/nicholas/Projects/djra/b_render.hpp
+GL/glut.h
+-
+opencv/cv.h
+-
+opencv/cxcore.h
+-
+opencv/highgui.h
+-
+
+/home/nicholas/Projects/djra/b_render.hpp
+GL/gl.h
+-
+
+/home/nicholas/Projects/djra/main.cpp
+b_render.hpp
+/home/nicholas/Projects/djra/b_render.hpp
+GL/glut.h
+-
+opencv/cv.h
+-
+opencv/cxcore.h
+-
+opencv/highgui.h
+-
+
