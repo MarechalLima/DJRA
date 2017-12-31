@@ -5,6 +5,7 @@
 #include "render.hpp"
 #include "exit.hpp"
 #include "spheres.hpp"
+#include "collision.hpp"
 #include "background_render.hpp"
 #include <GL/gl.h>
 #include <GL/glut.h>
@@ -13,7 +14,7 @@ void draw() {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glEnable(GL_DEPTH_TEST);
     glShadeModel(GL_SMOOTH);
-    processSkeleton();
+    //processSkeleton();
     if (t == 0 && quantidadeVidas == 0) {
         sairPrincipal();
     }
