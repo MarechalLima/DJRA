@@ -3,14 +3,15 @@
 //
 #include "spheres.hpp"
 #include "background_render.hpp"
+#include "transition.hpp"
+#include "tutorial.hpp"
 #include <GL/gl.h>
 #include <GL/glut.h>
 
-bool againTime = false;
-double tTransicao = 4;
-bool pause = true;
 float auxx, auxy;
 float xRHand = 0.0f, yRHand = 0.0f;
+GLfloat zRHand = 0;
+GLfloat zRHandDefault = 0;
 double r = 1, b = 0;
 
 void drawSphereAuxiliar(){

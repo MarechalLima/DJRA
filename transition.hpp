@@ -5,15 +5,9 @@
 #ifndef DJRA_TRANSITION_HPP
 #define DJRA_TRANSITION_HPP
 
-extern char nameTemp0_1[];
-extern char nameTemp0_2[];
-extern char nameTemp0_3[];
-extern char nameTemp1_1[];
-extern char nameTemp1_2[];
-extern char nameTemp1_3[];
-extern char nameTemp2_1[];
-extern char nameTemp2_2[];
-extern char nameTemp2_3[];
+extern char nameTemp0_1[], nameTemp0_2[], nameTemp0_3[], nameTemp1_1[],
+        nameTemp1_2[], nameTemp1_3[], nameTemp2_1[], nameTemp2_2[], nameTemp2_3[];
+extern double tTransicao;
 
 void TransicaoFases(int value);
 

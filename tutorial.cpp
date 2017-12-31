@@ -17,6 +17,7 @@ bool againTime = false;
 
 int tut = 0;
 bool hover = false;
+bool pause = true;
 
 void tutorial(int value) {
 

@@ -6,6 +6,8 @@
 #include <GL/gl.h>
 #include <GL/glut.h>
 #include "background_render.hpp"
+#include "exit.hpp"
+#include "collision.hpp"
 
 char nameTemp0_1[] = "imags//transicao//0_1.png";
 char nameTemp0_2[] = "imags//transicao//0_2.png";
@@ -16,6 +18,8 @@ char nameTemp1_3[] = "imags//transicao//1_3.png";
 char nameTemp2_1[] = "imags//transicao//2_1.png";
 char nameTemp2_2[] = "imags//transicao//2_2.png";
 char nameTemp2_3[] = "imags//transicao//2_3.png";
+
+double tTransicao = 4;
 
 void TransicaoFases(int value) {
     if (tTransicao>0 && faseConcluida == true) {
