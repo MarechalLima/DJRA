@@ -8,9 +8,9 @@
 int main(int argc, char **argv){
     arqRead = fgetc(arq);
     if (arqRead == 'r') {
-        nodeUser = NUI_SKELETON_POSITION_HAND_RIGHT;
+        //nodeUser = NUI_SKELETON_POSITION_HAND_RIGHT;
     } else if (arqRead == 'l') {
-        nodeUser = NUI_SKELETON_POSITION_HAND_LEFT;
+        //nodeUser = NUI_SKELETON_POSITION_HAND_LEFT;
     } else {
         printf("Arquivo vazio!\n");
     }
