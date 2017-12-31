@@ -12,7 +12,7 @@ extern int levelImage, quantidadeVidas;
 extern GLdouble angle, dAspect, anglex, angley, anglez;
 extern GLuint textureId;
 extern IplImage *image, *imageBgd;
-extern bool start, pause;
+extern bool start;
 extern double t;
 extern char ti[];
 
