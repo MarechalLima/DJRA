@@ -5,10 +5,11 @@
 #ifndef DJRA_COLLISION_HPP
 #define DJRA_COLLISION_HPP
 
+extern double timePadrao;
+extern bool faseConcluida, vidaExtra, coinStatus;
 
-class collision {
-
-};
+void profundidadeColisao();
+void colisao();
 
 
 #endif //DJRA_COLLISION_HPP
