@@ -123,32 +123,32 @@ djra/fast:
 	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/build
 .PHONY : djra/fast
 
-b_render.o: b_render.cpp.o
+background_render.o: background_render.cpp.o
 
-.PHONY : b_render.o
+.PHONY : background_render.o
 
 # target to build an object file
-b_render.cpp.o:
-	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/b_render.cpp.o
-.PHONY : b_render.cpp.o
+background_render.cpp.o:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/background_render.cpp.o
+.PHONY : background_render.cpp.o
 
-b_render.i: b_render.cpp.i
+background_render.i: background_render.cpp.i
 
-.PHONY : b_render.i
+.PHONY : background_render.i
 
 # target to preprocess a source file
-b_render.cpp.i:
-	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/b_render.cpp.i
-.PHONY : b_render.cpp.i
+background_render.cpp.i:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/background_render.cpp.i
+.PHONY : background_render.cpp.i
 
-b_render.s: b_render.cpp.s
+background_render.s: background_render.cpp.s
 
-.PHONY : b_render.s
+.PHONY : background_render.s
 
 # target to generate assembly for a file
-b_render.cpp.s:
-	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/b_render.cpp.s
-.PHONY : b_render.cpp.s
+background_render.cpp.s:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/background_render.cpp.s
+.PHONY : background_render.cpp.s
 
 main.o: main.cpp.o
 
@@ -177,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+spheres.o: spheres.cpp.o
+
+.PHONY : spheres.o
+
+# target to build an object file
+spheres.cpp.o:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/spheres.cpp.o
+.PHONY : spheres.cpp.o
+
+spheres.i: spheres.cpp.i
+
+.PHONY : spheres.i
+
+# target to preprocess a source file
+spheres.cpp.i:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/spheres.cpp.i
+.PHONY : spheres.cpp.i
+
+spheres.s: spheres.cpp.s
+
+.PHONY : spheres.s
+
+# target to generate assembly for a file
+spheres.cpp.s:
+	$(MAKE) -f CMakeFiles/djra.dir/build.make CMakeFiles/djra.dir/spheres.cpp.s
+.PHONY : spheres.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +213,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... djra"
-	@echo "... b_render.o"
-	@echo "... b_render.i"
-	@echo "... b_render.s"
+	@echo "... background_render.o"
+	@echo "... background_render.i"
+	@echo "... background_render.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... spheres.o"
+	@echo "... spheres.i"
+	@echo "... spheres.s"
 .PHONY : help
 
 

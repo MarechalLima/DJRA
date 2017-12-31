@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nicholas/Projects/djra/b_render.cpp" "/home/nicholas/Projects/djra/cmake-build-debug/CMakeFiles/djra.dir/b_render.cpp.o"
+  "/home/nicholas/Projects/djra/background_render.cpp" "/home/nicholas/Projects/djra/cmake-build-debug/CMakeFiles/djra.dir/background_render.cpp.o"
   "/home/nicholas/Projects/djra/main.cpp" "/home/nicholas/Projects/djra/cmake-build-debug/CMakeFiles/djra.dir/main.cpp.o"
+  "/home/nicholas/Projects/djra/spheres.cpp" "/home/nicholas/Projects/djra/cmake-build-debug/CMakeFiles/djra.dir/spheres.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

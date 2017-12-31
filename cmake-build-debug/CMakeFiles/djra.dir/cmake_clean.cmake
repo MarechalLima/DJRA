@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/djra.dir/b_render.cpp.o"
+  "CMakeFiles/djra.dir/background_render.cpp.o"
   "CMakeFiles/djra.dir/main.cpp.o"
+  "CMakeFiles/djra.dir/spheres.cpp.o"
   "djra.pdb"
   "djra"
 )

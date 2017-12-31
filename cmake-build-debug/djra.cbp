@@ -4,7 +4,7 @@
 	<Project>
 		<Option title="djra"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="clang"/>
 		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\OpenCV\;"/>
 		<Build>
 			<Target title="all">
@@ -42,16 +42,15 @@
 				<Option working_dir="/home/nicholas/Projects/djra/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/home/nicholas/Projects/djra/."/>
 					<Add directory="/usr/include/opencv"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/llvm-3.8/bin/../lib/clang/3.8.0/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
@@ -67,16 +66,15 @@
 				<Option working_dir="/home/nicholas/Projects/djra/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/home/nicholas/Projects/djra/."/>
 					<Add directory="/usr/include/opencv"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/lib/llvm-3.8/bin/../lib/clang/3.8.0/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
@@ -88,13 +86,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/nicholas/Projects/djra/b_render.cpp">
+		<Unit filename="/home/nicholas/Projects/djra/background_render.cpp">
 			<Option target="djra"/>
 		</Unit>
-		<Unit filename="/home/nicholas/Projects/djra/b_render.hpp">
+		<Unit filename="/home/nicholas/Projects/djra/background_render.hpp">
 			<Option target="djra"/>
 		</Unit>
 		<Unit filename="/home/nicholas/Projects/djra/main.cpp">
+			<Option target="djra"/>
+		</Unit>
+		<Unit filename="/home/nicholas/Projects/djra/spheres.cpp">
+			<Option target="djra"/>
+		</Unit>
+		<Unit filename="/home/nicholas/Projects/djra/spheres.hpp">
 			<Option target="djra"/>
 		</Unit>
 		<Unit filename="/home/nicholas/Projects/djra/CMakeLists.txt">

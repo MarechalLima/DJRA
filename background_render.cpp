@@ -1,9 +1,10 @@
-#include "b_render.hpp"
+#include "background_render.hpp"
 /** Variables **/
 GLdouble angle, dAspect = 1;
 GLdouble anglex = 0, angley = 0, anglez = -270;
 GLuint textureId;
 IplImage * imageBgd;
+int quantidadeVidas = 3;
 
 /** Background images variables **/
 char name0[] = "imags/cenario1.png"; char nameBgd0[] = "imags/cenario1-exibir.png"; char nameBgd2D0[] = "imags/cenario1-exibir-2d.png";
@@ -14,7 +15,7 @@ char name2[] = "imags/cenario3.png"; char nameBgd2[] = "imags/cenario3-exibir.pn
 #define HEIGHT 600
 
 
-void detMedVisuzalizacao(){
+void detMedVisualizacao(){
     glMatrixMode(GL_PROJECTION);
 	glLoadIdentity();
 	gluPerspective(angle, dAspect, 1, 500);
@@ -101,6 +102,29 @@ void setCamera(){
 	glEnable(GL_LIGHT0);
 	glEnable(GL_DEPTH_TEST);
 
-
 	angle = 45;
+}
+
+void BarraTempo(char *string){
+
+	glPushMatrix();
+
+	glRasterPos2d(550,70);
+	while(*string){
+		glColor3f(0,0,1);
+		glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24,*string++);
+	}
+	glPopMatrix();
+
+}
+
+void vidas(){
+	for(int i=0;i<quantidadeVidas;i++){
+		glPushMatrix();
+		glColor3f(1,1,1);
+		glTranslated(520+(i*20),40,0);
+		glutSolidSphere(7,10,10);
+		glPopMatrix();
+	}
+
 }
