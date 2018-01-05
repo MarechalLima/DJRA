@@ -62,11 +62,10 @@ void init(
     int argc, 
     char **argv, 
     void draw(),
-    void sairEsc(unsigned char key, int x, int y),
-    void tutorial(int value),
-    void TempoAtivo(int value),
-    void Tempo(int value),
-    void TransicaoFases(int value)
+    void sairEsc(void (func)(unsigned char, int, int)),
+    void tutorial(int),
+    void TempoAtivo(int),
+    void TransicaoFases(int)
 ){
     glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGBA);
@@ -74,13 +73,13 @@ void init(
 	glutCreateWindow("MOVE");
 	glutFullScreen();
 	glutDisplayFunc(draw);
-	glutKeyboardFunc(sairEsc);
+	//glutKeyboardFunc(sairEsc);
 	glutTimerFunc(5000, tutorial, 1);
 	glutTimerFunc(1000, TempoAtivo, 1);
 	glutTimerFunc(1000,Tempo,1);
 	glutTimerFunc(1000, TransicaoFases, 1);
 	glutIdleFunc(draw);
-	glutReshapeFunc(&alteraJanela);
+	glutReshapeFunc(alteraJanela);
 }
 
 void setCamera(){

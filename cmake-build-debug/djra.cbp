@@ -5,7 +5,7 @@
 		<Option title="djra"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="clang"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\share\;CMake Files\..\..\..\..\usr\share\OpenCV\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\lib64\;CMake Files\..\..\..\..\usr\lib64\OpenCV\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/nicholas/Projects/djra/cmake-build-debug"/>
@@ -134,17 +134,17 @@
 		<Unit filename="/home/nicholas/Projects/djra/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/nicholas/Projects/djra/../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		<Unit filename="/home/nicholas/Projects/djra/../../../../usr/lib64/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/nicholas/Projects/djra/../../../../usr/share/OpenCV/OpenCVConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		<Unit filename="/home/nicholas/Projects/djra/../../../../usr/lib64/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/nicholas/Projects/djra/../../../../usr/share/OpenCV/OpenCVModules.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		<Unit filename="/home/nicholas/Projects/djra/../../../../usr/lib64/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/nicholas/Projects/djra/../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\share\OpenCV\"/>
+		<Unit filename="/home/nicholas/Projects/djra/../../../../usr/lib64/OpenCV/OpenCVModules-releasewithdebinfo.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib64\OpenCV\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

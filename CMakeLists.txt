@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 include_directories(./)
 
 add_executable(djra
-        background_render.cpp
+        background_render.cpp background_render.hpp
         main.cpp spheres.cpp spheres.hpp render.cpp render.hpp transition.cpp transition.hpp exit.cpp exit.hpp tutorial.cpp tutorial.hpp collision.cpp collision.hpp)
 
 find_package(GLUT REQUIRED)

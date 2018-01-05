@@ -31,12 +31,11 @@ void initTexture();
 void init(
     int argc,
     char **argv,
-    void draw(),
-    void sairEsc(),
-    void tutorial(),
-    void TempoAtivo(),
-    void Tempo(),
-    void TransicaoFases()
+    draw(),
+    void *sairEsc(),
+    void *tutorial(),
+    void *TempoAtivo(),
+    void *TransicaoFases()
 );
 void setCamera();
 void BarraTempo(char *string);

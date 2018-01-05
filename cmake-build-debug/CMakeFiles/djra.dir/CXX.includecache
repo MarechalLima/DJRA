@@ -59,6 +59,8 @@ render.hpp
 /home/nicholas/Projects/djra/render.hpp
 exit.hpp
 /home/nicholas/Projects/djra/exit.hpp
+transition.hpp
+/home/nicholas/Projects/djra/transition.hpp
 
 /home/nicholas/Projects/djra/render.cpp
 render.hpp

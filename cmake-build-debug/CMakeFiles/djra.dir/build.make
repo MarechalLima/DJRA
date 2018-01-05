@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2017.3.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /opt/clion/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2017.3.1/bin/cmake/bin/cmake -E remove -f
+RM = /opt/clion/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -272,28 +272,52 @@ djra: CMakeFiles/djra.dir/exit.cpp.o
 djra: CMakeFiles/djra.dir/tutorial.cpp.o
 djra: CMakeFiles/djra.dir/collision.cpp.o
 djra: CMakeFiles/djra.dir/build.make
-djra: /usr/lib/x86_64-linux-gnu/libGLU.so
-djra: /usr/lib/x86_64-linux-gnu/libGL.so
-djra: /usr/lib/x86_64-linux-gnu/libglut.so
-djra: /usr/lib/x86_64-linux-gnu/libXi.so
-djra: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.2.4.9
-djra: /usr/lib/x86_64-linux-gnu/libopencv_ts.so.2.4.9
-djra: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.2.4.9
-djra: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.2.4.9
-djra: /usr/lib/x86_64-linux-gnu/libopencv_ocl.so.2.4.9
-djra: /usr/lib/x86_64-linux-gnu/libopencv_gpu.so.2.4.9
-djra: /usr/lib/x86_64-linux-gnu/libopencv_contrib.so.2.4.9
-djra: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.2.4.9
-djra: /usr/lib/x86_64-linux-gnu/libopencv_legacy.so.2.4.9
-djra: /usr/lib/x86_64-linux-gnu/libopencv_video.so.2.4.9
-djra: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.2.4.9
-djra: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.2.4.9
-djra: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.2.4.9
-djra: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.2.4.9
-djra: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.2.4.9
-djra: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.2.4.9
-djra: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.2.4.9
-djra: /usr/lib/x86_64-linux-gnu/libopencv_core.so.2.4.9
+djra: /usr/lib64/libGLU.so
+djra: /usr/lib64/libGL.so
+djra: /usr/lib64/libglut.so
+djra: /usr/lib64/libXmu.so
+djra: /usr/lib64/libXi.so
+djra: /usr/lib64/libopencv_shape.so.3.2.0
+djra: /usr/lib64/libopencv_stitching.so.3.2.0
+djra: /usr/lib64/libopencv_superres.so.3.2.0
+djra: /usr/lib64/libopencv_videostab.so.3.2.0
+djra: /usr/lib64/libopencv_aruco.so.3.2.0
+djra: /usr/lib64/libopencv_bgsegm.so.3.2.0
+djra: /usr/lib64/libopencv_bioinspired.so.3.2.0
+djra: /usr/lib64/libopencv_ccalib.so.3.2.0
+djra: /usr/lib64/libopencv_cvv.so.3.2.0
+djra: /usr/lib64/libopencv_datasets.so.3.2.0
+djra: /usr/lib64/libopencv_dpm.so.3.2.0
+djra: /usr/lib64/libopencv_face.so.3.2.0
+djra: /usr/lib64/libopencv_freetype.so.3.2.0
+djra: /usr/lib64/libopencv_fuzzy.so.3.2.0
+djra: /usr/lib64/libopencv_hdf.so.3.2.0
+djra: /usr/lib64/libopencv_line_descriptor.so.3.2.0
+djra: /usr/lib64/libopencv_optflow.so.3.2.0
+djra: /usr/lib64/libopencv_plot.so.3.2.0
+djra: /usr/lib64/libopencv_reg.so.3.2.0
+djra: /usr/lib64/libopencv_saliency.so.3.2.0
+djra: /usr/lib64/libopencv_stereo.so.3.2.0
+djra: /usr/lib64/libopencv_structured_light.so.3.2.0
+djra: /usr/lib64/libopencv_surface_matching.so.3.2.0
+djra: /usr/lib64/libopencv_text.so.3.2.0
+djra: /usr/lib64/libopencv_ximgproc.so.3.2.0
+djra: /usr/lib64/libopencv_xobjdetect.so.3.2.0
+djra: /usr/lib64/libopencv_xphoto.so.3.2.0
+djra: /usr/lib64/libopencv_video.so.3.2.0
+djra: /usr/lib64/libopencv_phase_unwrapping.so.3.2.0
+djra: /usr/lib64/libopencv_rgbd.so.3.2.0
+djra: /usr/lib64/libopencv_calib3d.so.3.2.0
+djra: /usr/lib64/libopencv_features2d.so.3.2.0
+djra: /usr/lib64/libopencv_flann.so.3.2.0
+djra: /usr/lib64/libopencv_objdetect.so.3.2.0
+djra: /usr/lib64/libopencv_ml.so.3.2.0
+djra: /usr/lib64/libopencv_highgui.so.3.2.0
+djra: /usr/lib64/libopencv_photo.so.3.2.0
+djra: /usr/lib64/libopencv_videoio.so.3.2.0
+djra: /usr/lib64/libopencv_imgcodecs.so.3.2.0
+djra: /usr/lib64/libopencv_imgproc.so.3.2.0
+djra: /usr/lib64/libopencv_core.so.3.2.0
 djra: CMakeFiles/djra.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nicholas/Projects/djra/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable djra"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/djra.dir/link.txt --verbose=$(VERBOSE)
