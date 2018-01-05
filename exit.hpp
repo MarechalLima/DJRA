@@ -15,8 +15,8 @@ extern FILE *arqNumberTeste, *arqResultadoTestes, *arq;
 extern std::string resultadoTestes;
 
 void sairPrincipal();
-void sairEsc(unsigned char key, int x, int y);
-void TempoAtivo (int value);
+void sairEsc(void (func)(unsigned char, int, int));
+void TempoAtivo (void (func) (int));
 
 
 #endif //DJRA_EXIT_HPP

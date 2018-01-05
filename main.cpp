@@ -1,11 +1,12 @@
 #include "background_render.hpp"
 #include "render.hpp"
 #include "exit.hpp"
+#include "transition.hpp"
 
 #define WIDTH 600
 #define HEIGHT 600
 
-int main(int argc, char **argv){
+int main(int argc, char *argv[]){
     arqRead = fgetc(arq);
     if (arqRead == 'r') {
         //nodeUser = NUI_SKELETON_POSITION_HAND_RIGHT;
@@ -32,7 +33,18 @@ int main(int argc, char **argv){
     //Background generate
     glGenTextures(1, &textureId);
     //Background generate
-    //init();
+    /** int argc,
+    char **argv,
+    void draw(),
+    void sairEsc(unsigned char key, int x, int y),
+    void tutorial(int value),
+    void TempoAtivo(int value),
+    void Tempo(int value),
+    void TransicaoFases(int value) **/
+    init(argc, argv, draw, sairEsc,
+    tutorial, TempoAtivo,
+    TransicaoFases);
+    initTexture();
 
 
     setCamera();
