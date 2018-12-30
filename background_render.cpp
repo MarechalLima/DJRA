@@ -139,6 +139,6 @@ void Tempo(int value){
 		t--;
 	}
 	//itoa(t,ti,10);
-	sprintf(ti,"%f",t);
+	sprintf(ti,"%.f",t);
 	glutTimerFunc(1000,Tempo,1);
 }
