@@ -27,3 +27,5 @@ ID: 25 | Tempo: 58 segundos | Fase 1: Sim | Fase 2: No | Fase 3: No
 ID: 26 | Tempo: 165 segundos | Fase 1: Sim | Fase 2: No | Fase 3: No
 ID: 27 | Tempo: 46 segundos | Fase 1: Sim | Fase 2: No | Fase 3: No
 ID: 28 | Tempo: 116 segundos | Fase 1: Sim | Fase 2: Sim | Fase 3: No
+ID: 29 | Tempo: 1 segundos | Fase 1: No | Fase 2: No | Fase 3: No
+ID: 30 | Tempo: 37 segundos | Fase 1: No | Fase 2: No | Fase 3: No
