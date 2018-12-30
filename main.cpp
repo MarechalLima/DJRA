@@ -28,19 +28,9 @@ int main(int argc, char *argv[]){
 
 	//initKinect();
 
-	printf("kinect init");
-
 	//Background generate
 	glGenTextures(1, &textureId);
-	//Background generate
-	/** int argc,
-	char **argv,
-	void draw(),
-	void sairEsc(unsigned char key, int x, int y),
-	void tutorial(int value),
-	void TempoAtivo(int value),
-	void Tempo(int value),
-	void TransicaoFases(int value) **/
+	
 	init(argc, argv, draw, sairEsc,
 	tutorial, TempoAtivo,
 	TransicaoFases);

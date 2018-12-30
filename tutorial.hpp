@@ -10,7 +10,7 @@ extern bool hover;
 extern char nameT1[], nameT2[], nameT3[], nameT4[];
 extern char nameTnone[], nameTno[], nameTyes[], nameTagain[];
 extern bool againTime, pause;
-void tutorial(void (func) (int));
+void tutorial(int);
 
 
 #endif //DJRA_TUTORIAL_HPP

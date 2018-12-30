@@ -73,7 +73,7 @@ void init(
 	glutCreateWindow("MOVE");
 	glutFullScreen();
 	glutDisplayFunc(draw);
-	//glutKeyboardFunc(sairEsc);
+	glutKeyboardFunc(sairEsc);
 	glutTimerFunc(5000, tutorial, 1);
 	glutTimerFunc(1000, TempoAtivo, 1);
 	glutTimerFunc(1000,Tempo,1);

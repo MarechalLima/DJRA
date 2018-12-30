@@ -31,10 +31,10 @@ void init(
 	int argc,
 	char **argv,
 	void draw(),
-	void sairEsc(void (*func)(unsigned char, int, int)),
-	void tutorial(void (*func)(int)),
-	void TempoAtivo(void (*func)(int)),
-	void TransicaoFases(void (*func)(int))
+	void sairEsc(unsigned char, int, int),
+	void tutorial(int),
+	void TempoAtivo(int),
+	void TransicaoFases(int)
 );
 void setCamera();
 void BarraTempo(char *string);
