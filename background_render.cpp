@@ -62,7 +62,7 @@ void init(
     int argc, 
     char **argv, 
     void draw(),
-    void sairEsc(void (func)(unsigned char, int, int)),
+    void sairEsc(unsigned char, int, int),
     void tutorial(int),
     void TempoAtivo(int),
     void TransicaoFases(int)
