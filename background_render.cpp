@@ -5,8 +5,8 @@ int levelImage = 0;
 GLdouble angle, dAspect = 1;
 GLdouble anglex = 0, angley = 0, anglez = -270;
 GLuint textureId;
-IplImage * image;
-IplImage * imageBgd;
+cv::Mat image;
+cv::Mat imageBgd;
 int quantidadeVidas = 3;
 bool start = false;
 double t = 30;
@@ -39,7 +39,7 @@ void alteraJanela(GLsizei w, GLsizei h){
 
 void initTexture(){
     glBindTexture(GL_TEXTURE_2D, textureId);
-	gluBuild2DMipmaps(GL_TEXTURE_2D, 3, imageBgd->width, imageBgd->height, GL_BGR_EXT, GL_UNSIGNED_BYTE, imageBgd->imageData);
+	gluBuild2DMipmaps(GL_TEXTURE_2D, 3, imageBgd.rows, imageBgd.cols, GL_BGR_EXT, GL_UNSIGNED_BYTE, imageBgd.data);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
 	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 

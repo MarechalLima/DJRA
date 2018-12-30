@@ -3,16 +3,14 @@
 
 #include <GL/gl.h>
 #include <GL/glut.h>
-#include <opencv4/opencv2/core.hpp>
-#include <opencv4/opencv2/core/types_c.h>
-// #include <opencv4/opencv2/cxcore.h>
-// #include <opencv4/opencv2/highgui.h>
+#include <opencv4/opencv2/core/core.hpp>
+#include <opencv4/opencv2/highgui.hpp>
 
 /** Variables **/
 extern int levelImage, quantidadeVidas;
 extern GLdouble angle, dAspect, anglex, angley, anglez;
 extern GLuint textureId;
-extern IplImage *image, *imageBgd;
+extern cv::Mat image, imageBgd;
 extern bool start;
 extern double t;
 extern char ti[];
@@ -32,11 +30,11 @@ void initTexture();
 void init(
 	int argc,
 	char **argv,
-	draw(),
-	void *sairEsc(),
-	void *tutorial(),
-	void *TempoAtivo(),
-	void *TransicaoFases()
+	void draw(),
+	void sairEsc(void (*func)(unsigned char, int, int)),
+	void tutorial(void (*func)(int)),
+	void TempoAtivo(void (*func)(int)),
+	void TransicaoFases(void (*func)(int))
 );
 void setCamera();
 void BarraTempo(char *string);

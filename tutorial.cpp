@@ -22,32 +22,32 @@ bool pause = true;
 void tutorial(int value) {
 
 	if (tut == 5) {
-		image = cvLoadImage(name0, CV_LOAD_IMAGE_COLOR);
-		imageBgd = cvLoadImage(nameBgd0, CV_LOAD_IMAGE_COLOR);
+		image = cv::imread(name0, cv::IMREAD_COLOR);
+		imageBgd = cv::imread(nameBgd0, cv::IMREAD_COLOR);
 		pause = false;
 		tut++;
 	}
 	if(tut==4){
-		image = cvLoadImage(nameTagain, CV_LOAD_IMAGE_COLOR);
-		imageBgd = cvLoadImage(nameTnone, CV_LOAD_IMAGE_COLOR);
+		image = cv::imread(nameTagain, cv::IMREAD_COLOR);
+		imageBgd = cv::imread(nameTnone, cv::IMREAD_COLOR);
 		againTime = true;
 	}else if(start==false && tut==0 && levelImage==0){
-		imageBgd = cvLoadImage(nameT1, CV_LOAD_IMAGE_COLOR);
+		imageBgd = cv::imread(nameT1, cv::IMREAD_COLOR);
 		image= NULL;
 		tut++;
 	}
 	else if(start==false && tut==1 && levelImage==0){
-		imageBgd = cvLoadImage(nameT2, CV_LOAD_IMAGE_COLOR);
+		imageBgd = cv::imread(nameT2, cv::IMREAD_COLOR);
 		image= NULL;
 		tut++;
 	}
 	else if(start==false && tut==2 && levelImage==0){
-		imageBgd = cvLoadImage(nameT3, CV_LOAD_IMAGE_COLOR);
+		imageBgd = cv::imread(nameT3, cv::IMREAD_COLOR);
 		image= NULL;
 		tut++;
 	}
 	else if(start==false && tut==3 && levelImage==0){
-		imageBgd = cvLoadImage(nameT4, CV_LOAD_IMAGE_COLOR);
+		imageBgd = cv::imread(nameT4, cv::IMREAD_COLOR);
 		tut++;
 		image= NULL;
 		pause=true;

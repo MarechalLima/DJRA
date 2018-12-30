@@ -15,13 +15,13 @@ bool coinStatus = true;
 void profundidadeColisao() {
 	if (zRHand < zRHandDefault && zRHand != 0 && faseConcluida == false && pause==false) {
 		if (levelImage == 0 && hover == false) {
-			imageBgd = cvLoadImage(nameBgd2D0, CV_LOAD_IMAGE_COLOR);
+			imageBgd = cv::imread(nameBgd2D0, cv::IMREAD_COLOR);
 			if (coinStatus == false) {
 				//PlaySound((LPCSTR)buttonMusic, NULL, SND_FILENAME | SND_ASYNC);
 			}
 			hover = true;
 		} else if (levelImage == 1 && hover == false) {
-			imageBgd = cvLoadImage(nameBgd2D1, CV_LOAD_IMAGE_COLOR);
+			imageBgd = cv::imread(nameBgd2D1, cv::IMREAD_COLOR);
 			if (coinStatus == false) {
 				//PlaySound((LPCSTR)buttonMusic, NULL, SND_FILENAME | SND_ASYNC);
 			}
@@ -30,11 +30,11 @@ void profundidadeColisao() {
 	}
 	else if (zRHand != 0 && zRHand >= zRHandDefault && faseConcluida == false && pause==false) {
 		if (levelImage == 0 && hover == true) {
-			imageBgd = cvLoadImage(nameBgd0, CV_LOAD_IMAGE_COLOR);
+			imageBgd = cv::imread(nameBgd0, cv::IMREAD_COLOR);
 			hover = false;
 		}
 		else if (levelImage == 1 && hover == true) {
-			imageBgd = cvLoadImage(nameBgd1, CV_LOAD_IMAGE_COLOR);
+			imageBgd = cv::imread(nameBgd1, cv::IMREAD_COLOR);
 			hover = false;
 		}
 	}
@@ -50,14 +50,15 @@ void colisao() {
 	if (yRHand == 0) {
 		yRHand += 35;
 	}
-	CvScalar teste;
+	cv::Scalar teste;
 	int x = 0, y = 0;
 	if (start == true) {
 		for (double angulo = 0; angulo <= 360; angulo += 12) {
 			x = xRHand + 15 * cos(angulo);
 			y = yRHand + 15 * sin(angulo);
 
-			teste = cvGet2D(image, y, x);
+			// teste = cvGet2D(image, y, x);
+			teste = image.at<double>(x, y);
 			if (teste.val[0] == 0 && teste.val[1] == 0 && teste.val[2] == 0 && pause == false) {
 				//PlaySound((LPCSTR)musica, NULL, SND_FILENAME | SND_ASYNC);
 				if (quantidadeVidas == 0) {
@@ -106,12 +107,12 @@ void colisao() {
 			} else if (againTime == true && pause == true) {
 				if (teste.val[0] == 0 && teste.val[1] == 0 && teste.val[2] == 0) {
 					if (zRHand < zRHandDefault && zRHand != 0 && hover == false) {
-						imageBgd = cvLoadImage(nameTno, CV_LOAD_IMAGE_COLOR);
+						imageBgd = cv::imread(nameTno, cv::IMREAD_COLOR);
 						//PlaySound((LPCSTR)buttonMusic, NULL, SND_FILENAME | SND_ASYNC);
 						hover = true;
 					}
 					else if (zRHand >= zRHandDefault && zRHand != 0 && hover == true) {
-						imageBgd = cvLoadImage(nameTnone, CV_LOAD_IMAGE_COLOR);
+						imageBgd = cv::imread(nameTnone, cv::IMREAD_COLOR);
 						hover = false;
 					}
 					if (zRHand <= zRHandDefault && zRHand != 0) {
@@ -123,12 +124,12 @@ void colisao() {
 				}
 				else if (teste.val[0] == 0 && teste.val[1] == 0 && teste.val[2] == 255) {
 					if (zRHand < zRHandDefault && zRHand != 0 && hover == false) {
-						imageBgd = cvLoadImage(nameTyes, CV_LOAD_IMAGE_COLOR);
+						imageBgd = cv::imread(nameTyes, cv::IMREAD_COLOR);
 						//PlaySound((LPCSTR)buttonMusic, NULL, SND_FILENAME | SND_ASYNC);
 						hover = true;
 					}
 					else if (zRHand >= zRHandDefault && zRHand != 0 && hover == true) {
-						imageBgd = cvLoadImage(nameTnone, CV_LOAD_IMAGE_COLOR);
+						imageBgd = cv::imread(nameTnone, cv::IMREAD_COLOR);
 						hover = false;
 					}
 					if (zRHand <= zRHandDefault && zRHand != 0) {

@@ -19,10 +19,10 @@ int main(int argc, char *argv[]){
 
 	//HRESULT hr;
 	
-	image = cvLoadImage(name0, CV_LOAD_IMAGE_COLOR);
-	imageBgd = cvLoadImage(nameBgd0, CV_LOAD_IMAGE_COLOR);
+	image = cv::imread(name0, cv::IMREAD_COLOR);
+	imageBgd = cv::imread(nameBgd0, cv::IMREAD_COLOR);
 
-	if (image == NULL) {
+	if (image.data == NULL) {
 		printf("Imagem não carregada!\n");
 	}
 
