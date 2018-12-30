@@ -1,3 +1,0 @@
-/home/nicholas/Projects/DJRA/output/CMakeFiles/rebuild_cache.dir
-/home/nicholas/Projects/DJRA/output/CMakeFiles/djra.dir
-/home/nicholas/Projects/DJRA/output/CMakeFiles/edit_cache.dir
