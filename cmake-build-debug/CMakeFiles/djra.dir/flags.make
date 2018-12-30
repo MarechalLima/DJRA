@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nicholas/Projects/djra/. -isystem /usr/include/opencv 
+CXX_INCLUDES = -I/home/nicholas/Projects/djra/. -isystem /usr/include/opencv4/opencv2 
 

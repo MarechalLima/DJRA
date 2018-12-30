@@ -7,55 +7,55 @@
 #define HEIGHT 600
 
 int main(int argc, char *argv[]){
-    arqRead = fgetc(arq);
-    if (arqRead == 'r') {
-        //nodeUser = NUI_SKELETON_POSITION_HAND_RIGHT;
-    } else if (arqRead == 'l') {
-        //nodeUser = NUI_SKELETON_POSITION_HAND_LEFT;
-    } else {
-        printf("Arquivo vazio!\n");
-    }
+	arqRead = fgetc(arq);
+	if (arqRead == 'r') {
+		//nodeUser = NUI_SKELETON_POSITION_HAND_RIGHT;
+	} else if (arqRead == 'l') {
+		//nodeUser = NUI_SKELETON_POSITION_HAND_LEFT;
+	} else {
+		printf("Arquivo vazio!\n");
+	}
 
 
-    //HRESULT hr;
+	//HRESULT hr;
+	
+	image = cvLoadImage(name0, CV_LOAD_IMAGE_COLOR);
+	imageBgd = cvLoadImage(nameBgd0, CV_LOAD_IMAGE_COLOR);
 
-    image = cvLoadImage(name0, CV_LOAD_IMAGE_COLOR);
-    imageBgd = cvLoadImage(nameBgd0, CV_LOAD_IMAGE_COLOR);
+	if (image == NULL) {
+		printf("Imagem não carregada!\n");
+	}
 
-    if (image == NULL) {
-        printf("Imagem não carregada!\n");
-    }
+	//initKinect();
 
-    //initKinect();
+	printf("kinect init");
 
-    printf("kinect init");
-
-    //Background generate
-    glGenTextures(1, &textureId);
-    //Background generate
-    /** int argc,
-    char **argv,
-    void draw(),
-    void sairEsc(unsigned char key, int x, int y),
-    void tutorial(int value),
-    void TempoAtivo(int value),
-    void Tempo(int value),
-    void TransicaoFases(int value) **/
-    init(argc, argv, draw, sairEsc,
-    tutorial, TempoAtivo,
-    TransicaoFases);
-    initTexture();
-
-
-    setCamera();
-    glOrtho(0, WIDTH, HEIGHT, 0, 50, -50);
+	//Background generate
+	glGenTextures(1, &textureId);
+	//Background generate
+	/** int argc,
+	char **argv,
+	void draw(),
+	void sairEsc(unsigned char key, int x, int y),
+	void tutorial(int value),
+	void TempoAtivo(int value),
+	void Tempo(int value),
+	void TransicaoFases(int value) **/
+	init(argc, argv, draw, sairEsc,
+	tutorial, TempoAtivo,
+	TransicaoFases);
+	initTexture();
 
 
-    // Main loop
-    glutMainLoop();
-    fclose(arq);
-    return 0;
-    //NuiShutdown();
+	setCamera();
+	glOrtho(0, WIDTH, HEIGHT, 0, 50, -50);
 
-    return 0;
+
+	// Main loop
+	glutMainLoop();
+	fclose(arq);
+	return 0;
+	//NuiShutdown();
+
+	return 0;
 }

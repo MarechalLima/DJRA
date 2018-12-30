@@ -3,9 +3,10 @@
 
 #include <GL/gl.h>
 #include <GL/glut.h>
-#include <opencv/cv.h>
-#include <opencv/cxcore.h>
-#include <opencv/highgui.h>
+#include <opencv4/opencv2/core.hpp>
+#include <opencv4/opencv2/core/types_c.h>
+// #include <opencv4/opencv2/cxcore.h>
+// #include <opencv4/opencv2/highgui.h>
 
 /** Variables **/
 extern int levelImage, quantidadeVidas;
@@ -24,18 +25,18 @@ extern char name2[]; extern char nameBgd2[];
 extern void detMedVisualizacao();
 
 void alteraJanela(
-    GLsizei w,
-    GLsizei h
+	GLsizei w,
+	GLsizei h
 );
 void initTexture();
 void init(
-    int argc,
-    char **argv,
-    draw(),
-    void *sairEsc(),
-    void *tutorial(),
-    void *TempoAtivo(),
-    void *TransicaoFases()
+	int argc,
+	char **argv,
+	draw(),
+	void *sairEsc(),
+	void *tutorial(),
+	void *TempoAtivo(),
+	void *TransicaoFases()
 );
 void setCamera();
 void BarraTempo(char *string);

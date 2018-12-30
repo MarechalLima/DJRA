@@ -45,7 +45,7 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/home/nicholas/Projects/djra/."/>
-					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/opencv4/opencv2"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>
@@ -69,7 +69,7 @@
 				<Option compiler="clang"/>
 				<Compiler>
 					<Add directory="/home/nicholas/Projects/djra/."/>
-					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/opencv4/opencv2"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/x86_64-linux-gnu/c++/5.4.0"/>
 					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/5.4.0/../../../../include/c++/5.4.0/backward"/>

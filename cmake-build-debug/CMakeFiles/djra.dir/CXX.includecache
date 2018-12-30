@@ -17,11 +17,11 @@ GL/gl.h
 -
 GL/glut.h
 -
-opencv/cv.h
+opencv4/opencv2/cv.h
 -
-opencv/cxcore.h
+opencv4/opencv2/cxcore.h
 -
-opencv/highgui.h
+opencv4/opencv2/highgui.h
 -
 
 /home/nicholas/Projects/djra/collision.cpp
