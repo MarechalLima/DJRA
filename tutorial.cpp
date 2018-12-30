@@ -33,23 +33,23 @@ void tutorial(int value) {
 		againTime = true;
 	}else if(start==false && tut==0 && levelImage==0){
 		imageBgd = cv::imread(nameT1, cv::IMREAD_COLOR);
-		image= NULL;
+		image= NAN;
 		tut++;
 	}
 	else if(start==false && tut==1 && levelImage==0){
 		imageBgd = cv::imread(nameT2, cv::IMREAD_COLOR);
-		image= NULL;
+		image= NAN;
 		tut++;
 	}
 	else if(start==false && tut==2 && levelImage==0){
 		imageBgd = cv::imread(nameT3, cv::IMREAD_COLOR);
-		image= NULL;
+		image= NAN;
 		tut++;
 	}
 	else if(start==false && tut==3 && levelImage==0){
 		imageBgd = cv::imread(nameT4, cv::IMREAD_COLOR);
 		tut++;
-		image= NULL;
+		image= NAN;
 		pause=true;
 	}
 

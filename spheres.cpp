@@ -15,7 +15,7 @@ GLfloat zRHandDefault = 0;
 double r = 1, b = 0;
 
 void drawSphereAuxiliar(){
-	if(againTime == true && tTransicao==4 || pause == false && tTransicao==4){
+	if((againTime == true && tTransicao==4) || (pause == false && tTransicao==4)){
 		if(start==false){
 			glPushMatrix();
 			glColor3f(1,1,1);
@@ -34,7 +34,7 @@ void drawSphere() {
 	if (xRHand == 0 && yRHand == 0)
 	{
 		glTranslated(15, 15, 0);
-	}else if(xRHand != 0 && yRHand != 0 || start==true){
+	}else if((xRHand != 0 && yRHand != 0) || start==true){
 		glTranslated((xRHand), yRHand, 0);
 	}
 	glColor3d(r, 0, b);

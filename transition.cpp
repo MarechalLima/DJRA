@@ -27,43 +27,43 @@ void TransicaoFases(int value) {
 		if (tTransicao == 4) {
 			if (levelImage == 0) {
 				imageBgd = cv::imread(nameTemp0_3, cv::IMREAD_COLOR);
-				image = NULL;
+				image = NAN;
 			}
 			if (levelImage == 1) {
 				imageBgd = cv::imread(nameTemp1_3, cv::IMREAD_COLOR);
-				image = NULL;
+				image = NAN;
 			}
 			if (levelImage == 2) {
 				imageBgd = cv::imread(nameTemp2_3, cv::IMREAD_COLOR);
-				image = NULL;
+				image = NAN;
 			}
 		}
 		if (tTransicao == 3) {
 			if (levelImage == 0) {
 				imageBgd = cv::imread(nameTemp0_2, cv::IMREAD_COLOR);
-				image = NULL;
+				image = NAN;
 			}
 			if (levelImage == 1) {
 				imageBgd = cv::imread(nameTemp1_2, cv::IMREAD_COLOR);
-				image = NULL;
+				image = NAN;
 			}
 			if (levelImage == 2) {
 				imageBgd = cv::imread(nameTemp2_2, cv::IMREAD_COLOR);
-				image = NULL;
+				image = NAN;
 			}
 		}
 		if (tTransicao == 2) {
 			if (levelImage == 0) {
 				imageBgd = cv::imread(nameTemp0_1, cv::IMREAD_COLOR);
-				image = NULL;
+				image = NAN;
 			}
 			if (levelImage == 1) {
 				imageBgd = cv::imread(nameTemp1_1, cv::IMREAD_COLOR);
-				image = NULL;
+				image = NAN;
 			}
 			if (levelImage == 2) {
 				imageBgd = cv::imread(nameTemp2_1, cv::IMREAD_COLOR);
-				image = NULL;
+				image = NAN;
 			}
 		}
 		tTransicao--;

@@ -32,3 +32,5 @@ ID: 30 | Tempo: 37 segundos | Fase 1: No | Fase 2: No | Fase 3: No
 ID: 31 | Tempo: 30 segundos | Fase 1: No | Fase 2: No | Fase 3: No
 ID: 32 | Tempo: 11 segundos | Fase 1: No | Fase 2: No | Fase 3: No
 ID: 33 | Tempo: 28 segundos | Fase 1: No | Fase 2: No | Fase 3: No
+ID: 34 | Tempo: 10 segundos | Fase 1: No | Fase 2: No | Fase 3: No
+ID: 35 | Tempo: 28 segundos | Fase 1: No | Fase 2: No | Fase 3: No
