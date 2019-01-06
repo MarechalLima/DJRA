@@ -1,5 +1,5 @@
 all: djra
-
+ocv = "/usr/include/opencv4"
 CC = g++
 CFLAGS = -std=c++11
 LDFLAGS = `pkg-config --static --libs opencv4` -lGL -lGLU -lglut
@@ -9,7 +9,7 @@ OPTIMIZE = -O2
 SOURCES = main.cpp background_render.cpp spheres.cpp render.cpp transition.cpp exit.cpp tutorial.cpp collision.cpp background_render.hpp spheres.hpp render.hpp transition.hpp exit.hpp tutorial.hpp collision.hpp
 # SOURCES = main.cpp
 djra: Makefile main.cpp
-	$(CC) $(SOURCES) -o $@ $(WARNINGS) $(DEBUG) $(OPTIMIZE) $(LDFLAGS)
+	env CPATH=$(ocv) $(CC) $(SOURCES) -o $@ $(WARNINGS) $(DEBUG) $(OPTIMIZE) $(LDFLAGS)
 
 clean:
 	rm -f djra
